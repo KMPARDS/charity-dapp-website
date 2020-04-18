@@ -1,0 +1,182 @@
+.demo-style-switch {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    right: -350px;
+    background: #FFFFFF;
+}
+
+.demo-style-switch:hover {
+    opacity: 1 !important;
+}
+
+.demo-style-switch .switched-options {
+    position: relative;
+    width: 350px;
+    height: 100vh;
+    overflow-y: scroll;
+    text-align: left;
+    padding: 50px 20px 20px 20px;
+    border: 1px solid #ddd;
+}
+
+.demo-style-switch .config-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.demo-style-switch ul {
+    margin-bottom: 25px;
+}
+
+.demo-style-switch ul .active {
+    color: #005885;
+    font-weight: 700;
+}
+
+.demo-style-switch ul .p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #CCC;
+    margin-top: 10px;
+}
+
+.demo-style-switch ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #808080;
+}
+
+.demo-style-switch ul li a:hover {
+    color: #008ed6;
+}
+
+.demo-style-switch ul.styles {
+    margin-top: 15px;
+}
+
+.demo-style-switch ul.styles li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.demo-style-switch ul.styles li .color-blue,
+.demo-style-switch ul.styles li .color-dark-blue,
+.demo-style-switch ul.styles li .color-orange,
+.demo-style-switch ul.styles li .color-pink,
+.demo-style-switch ul.styles li .color-red,
+.demo-style-switch ul.styles li .color-green {
+    width: 43px;
+    height: 43px;
+}
+
+.demo-style-switch ul.styles li .color-blue {
+    background: #0d9df0;
+}
+
+.demo-style-switch ul.styles li .color-dark-blue {
+    background: #385bb6;
+}
+
+.demo-style-switch ul.styles li .color-orange {
+    background: #e36955;
+}
+
+.demo-style-switch ul.styles li .color-pink {
+    background: #e23ee0;
+}
+
+.demo-style-switch ul.styles li .color-red {
+    background: #e23e57;
+}
+
+.demo-style-switch ul.styles li .color-green {
+    background: #2aba6e;
+}
+
+
+
+.demo-style-switch .switch-button {
+    opacity: 1 !important;
+    background: #fff;
+    padding: 10px;
+    font-size: 24px;
+    color: #272727;
+    position: absolute;
+    overflow: hidden;
+    right: 349px;
+    top: 10em;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    z-index: 1;
+    border: 1px solid #ddd;
+    border-right: 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+/* .demo-style-switch .switch-button:hover {
+    padding: 10px 12px;
+} */
+
+.demo-style-switch .switch-button img {
+    width: 25px;
+}
+
+.demo-style-switch .purhase-button {
+    opacity: 1 !important;
+    background: #fff;
+    padding: 10px;
+    font-size: 24px;
+    color: #272727;
+    position: absolute;
+    overflow: hidden;
+    right: 349px;
+    top: 12.4em;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    z-index: 1;
+    border: 1px solid #ddd;
+    border-right: 0;
+    transition: all .3s ease;
+}
+
+
+.demo-style-switch .purhase-button img {
+    width: 25px;
+}
+
+/* .demo-style-switch .purhase-button:hover {
+    padding: 10px 12px;
+} */
+
+.demo-style-switch .btn-envato {
+    background-color: #8BC34A !important;
+    border-color: #8BC34A !important;
+    color: #fff !important;
+    margin-bottom: 5px;
+    font-size: 16px;
+    Text-transform: initial !important;
+    box-shadow: 0 2px 0 #6f9a37 !important;
+    border: 0;
+    line-height: 1.5;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    padding: 12px 0;
+}
+
+.styles a img {
+    transition: all .3s ease;
+    border: 2px solid transparent;
+}
+
+.styles a:hover .dp-img {
+    opacity: .5;
+    border: 2px solid #e36955;
+}
