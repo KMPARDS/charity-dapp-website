@@ -452,6 +452,8 @@ License: http://codecanyon.net/licenses
 	/* Show/hide button */
 	.menuzord-responsive .showhide{
 		margin: 0;
+		top: 10px;
+		position: relative;
 	}
 	
 	/* Menu */

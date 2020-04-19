@@ -23,7 +23,7 @@
         margin-top: 5px;
     }
     .menuzord-menu > li > a {
-        padding: 20px 15px;
+        padding:15px;
         font-size: 16px;
     }
     .header-fixed #menuzord {
@@ -43,6 +43,7 @@
     .tp-caption h1 {
         font-size: 40px;
     }
+
     .tp-caption {
         padding: 0 50px !important;
     }
@@ -130,8 +131,11 @@
         padding: 26px 7px;
         font-size: 14px;
     }
+	.menuzord-menu {
+		top: 30px;
+	}
     #header-bottom .button-rounded {
-        padding: 10px;
+        padding: 15px;
         padding-right: 10px;
     }
     .why-content-wrap > div {
@@ -261,7 +265,7 @@
     }
     #header-bottom, #header-bottom{
         bottom: auto;
-        top: 100px;
+        top: 0px;
         z-index: 999;
         background: #fff;
     }
@@ -439,6 +443,10 @@
         white-space: normal;
         display: inline-block;
     }
+	
+	.heading-one h1 {
+		font-size: 26px !important;
+	}
     .tp-caption h1 br{
         display: none;
         position: absolute;
